@@ -52,6 +52,9 @@ p {
   background-color: var(--white);
   border: 1px solid var(--primary);
 }
+#link {
+  margin-top: 1rem;
+}
 .btn-outline-primary:hover {
   color: var(--white);
   background-color: var(--primary);
@@ -118,6 +121,7 @@ h2 {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+  text-align: justify;
 }
 /* Body 3 */
 .text-sm {
@@ -220,15 +224,26 @@ h2 {
 }
 .hero--section--title--color {
   color: var(--primary);
+  font-size: 100px;
+}
+.portfolioo{
+  color: black;
+  font-family:"Roboto", sans-serif;
+  font-size: 40px;
 }
 .hero--section-description {
   color: var(--darkblue);
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 25px;
+  text-align: justify;
 }
 .hero--section--img {
-  display: flex;
+  border-radius: 50%;
+  height: 450px;
+  width: 450px;
+  margin-left: 6rem;
+    display: flex;
 }
 .hero--section--img > img {
   width: 100%;
@@ -304,6 +319,7 @@ h2 {
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
+  /* text-align: justify; */
 }
 /* Skills Style Ends */
 
@@ -313,11 +329,16 @@ h2 {
   padding: 133.3px 85.3px;
   align-items: center;
   gap: 114.6px;
+
   grid-template-columns: repeat(2, 1fr);
 }
 .about--section--img > img {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
+}
+
+.anchor-tag {
+  text-decoration: none;
 }
 /* About Us Ends */
 
@@ -377,6 +398,8 @@ h2 {
 }
 .portfolio--section--title {
   color: var(--heading-color);
+  margin-bottom: 1rem;
+  text-align: center;
 }
 .portfolio--link {
   text-decoration: none;
@@ -610,6 +633,11 @@ input[type="checkbox"] {
   .footer--content {
     text-align: center;
   }
+
+  .portfolioo {
+    color: var(--primary);
+  font-size: 50px;
+  }
   .skills--section--container,
   .about--section,
   .portfolio--section--container,
@@ -743,6 +771,18 @@ input[type="checkbox"] {
   .nav__hamburger.active :nth-child(3) {
     transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
   }
+}
+.img-logo {
+  border-radius: 50%;
+  
+
+}
+.img-logo-for {
+  border-radius: 50%;
+}
+.linkk {
+  margin-top: 1rem;
+  display: inline-block;
 }
 
 /* Responsive Screens Ends*/

@@ -5,9 +5,7 @@ function Footer() {
   return (
     <footer className="footer--container">
       <div className="footer--link--container">
-        <div>
-          <img src="./img/logo.svg" alt="Logoipsum" />
-        </div>
+        
         <div className="footer--items">
           <ul>
             <li>
@@ -62,26 +60,14 @@ function Footer() {
                 Contact
               </Link>
             </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="testimonial"
-                className="text-md"
-              >
-                Testimonials
-              </Link>
-            </li>
+            
           </ul>
         </div>
         <div className="footer--social--icon">
           <ul>
             <li>
               <a
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/mushahidhussain.ansari.7/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -102,7 +88,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/mushahid78901/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -125,7 +111,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.twitter.com/"
+                href="https://twitter.com/x/migrate?tok=7b2265223a222f4d75736861686932373231323737383f6662636c69643d49775932786a617745585379526c654852754132466c625149784d41414248617556684a4335366d6670386a4c306461435f73556553423576683150486c364e64395a5741764e7442684b5f48656f5566524558784558515f61656d5f554c614c3157695451723039305f464b50534a6e7841222c2274223a313732323434343736357ddb97ed9277b5121c8686ea2004d55a37"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -146,7 +132,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/mushahid-hussain-86a43825b/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -172,7 +158,7 @@ function Footer() {
       </div>
       <hr className="divider" />
       <div className="footer--content--container">
-        <p className="footer--content">Made with 💖 by John</p>
+        <p className="footer--content">Made with 💖 by Mushahid Hussain</p>
         <div className="footer--social--icon">
           <ul>
             <li>
